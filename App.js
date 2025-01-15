@@ -35,12 +35,37 @@ function App()
       {answerText:'54 letters',isCorrect: false},
       {answerText:'26 letters',isCorrect: true},
       {answerText:'24 letters',isCorrect: false}]
-    } 
+    } ,
+    {
+      questionText:' 5.How many days are there in a year?',
+    answerOptions:[
+      {answerText:'456 days',isCorrect: false},
+      {answerText:'675 days',isCorrect: false},
+      {answerText:'365 days',isCorrect: true},
+      {answerText:'789 days',isCorrect: false}]
+    } ,
+    {
+      questionText:' 6.How many minutes are there in an hour?',
+    answerOptions:[
+      {answerText:'20 minutes',isCorrect: false},
+      {answerText:'45 minutes',isCorrect: false},
+      {answerText:'60 minutes',isCorrect: true},
+      {answerText:'32 minutes',isCorrect: false}]
+    } ,
+    {
+      questionText:' 7.How many seconds are there in a minute?',
+    answerOptions:[
+      {answerText:'60 seconds',isCorrect: true},
+      {answerText:'70 seconds',isCorrect: false},
+      {answerText:'20 seconds',isCorrect: false },
+      {answerText:'10 seconds',isCorrect: false}]
+    } ,
+
   ]
  const[currentQuestion,setCurrentQuestion]=useState(0);
  const[score,setScore]=useState(0);
  const[showscore,setShowScore]=useState(false); //showscore==true
- //question.length == 4
+ //question.length == 7
  const handleclick=(isCorrect)=>
  {
   if(isCorrect === true)
