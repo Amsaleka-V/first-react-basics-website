@@ -1,0 +1,77 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body{
+  background: url("https://th.bing.com/th?id=OIP.5mCwOEs4PBpmp4wNZjQ9ygHaE7&w=306&h=203&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2");
+  font-family: bree 'Franklin Gothic Medium';
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.app
+{
+  background:linear-gradient(rgb(187, 187, 202)) ;
+  width: 95%;
+  min-height: 200px;
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 10px 10px 42px 0px rgb(214, 196, 196);
+  display: flex;
+  justify-content: space-evenly;
+}
+.title
+{
+  text-align: center;
+  color: rgb(228, 209, 215);
+  font-size: 20px;
+}
+.Question-section
+{
+  position: relative;
+  width: 100%;
+  color: white;
+}
+.Question-section h1 span
+{
+  
+  font-size: 40px;
+  margin-bottom: 10px;
+  color: rgb(214, 169, 169);
+}
+.Question-Text
+{
+  font-size: 20px;
+  margin-top: 10px;
+  color: rgb(240, 240, 247);
+  font-weight: bold;
+}
+.Answer-section
+{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: space-between;
+}
+button{
+  width: 100%;
+  font-size: 16px;
+  color: #c56161;
+  background: linear-gradient(orange);
+  border-radius: 15px;
+  display: flex;
+  padding: 10px;
+  justify-content: flex-start;
+  align-items: center;
+  border: 3px solid slategray;
+  cursor: pointer;
+}
+.score-section{
+  display: flex;
+  align-items: center;
+  font-size: 30px;
+  color: white;
+  font-weight: bold;
+}
